@@ -25,4 +25,4 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
-bundle exec rake build --verbose
+bundle exec middleman build --clean --verbose
