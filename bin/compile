@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # Work in the build directory
-cd $1/docs
+cd $1
 
 echo $(pwd)
 echo $1
@@ -29,4 +29,4 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
-bundle exec middleman build --clean --verbose
+cd docs/ && bundle exec middleman build --clean --verbose
