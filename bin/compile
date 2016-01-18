@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # Work in the build directory
-cd $1
+cd $1/docs
 
 # Set HOME to build directory in order to get the bundle command in the PATH
 HOME_BACK=$HOME
