@@ -25,4 +25,4 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
-cd docs && bundle exec middleman build --clean --verbose
+cd ${DOCS_FOLDER} && bundle exec middleman build --clean --verbose
