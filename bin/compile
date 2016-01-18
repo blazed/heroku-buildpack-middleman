@@ -2,7 +2,7 @@
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
 # Work in the build directory
-cd $1
+cd $1/docs
 
 echo $(pwd)
 echo $1
