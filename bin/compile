@@ -4,10 +4,6 @@
 # Work in the build directory
 cd $1
 
-echo $(pwd)
-echo $1
-echo "hej"
-
 # Set HOME to build directory in order to get the bundle command in the PATH
 HOME_BACK=$HOME
 export HOME=$1
@@ -29,4 +25,4 @@ fi
 export HOME=$HOME_BACK
 
 # Just build the static site
-cd docs/ && bundle exec middleman build --clean --verbose
+bundle exec middleman build --clean --verbose
